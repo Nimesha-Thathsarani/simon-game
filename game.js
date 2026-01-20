@@ -36,7 +36,7 @@ function checkAnswer(currentLevel) {
             }, 1000);
         }
     } else {
-        alert("wrong" + currentLevel );
+        alert("wrong");
 
         playSound("wrong");
 
@@ -83,4 +83,5 @@ function startOver() {
     level = 0;
     gamePattern = [];
     started = false;
+
 }
